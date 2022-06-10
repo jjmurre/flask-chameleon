@@ -7,8 +7,8 @@ setup(
     description="Flask extension to use Chameleon templates.",
     author="Jan Murre",
     author_email="jan.murre@catalyz.nl",
-    url="http://github.com/jjmurre/flask_chameleon",
+    url="http://github.com/jjmurre/flask-chameleon",
     packages=find_packages("src"),
     package_dir={"": "src"},
-    install_requires=[],
+    install_requires=["Chameleon"],
 )
